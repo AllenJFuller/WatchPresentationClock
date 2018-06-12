@@ -4,7 +4,7 @@ I wanted to play with the new-ish Fitbit SDK after getting an Ionic so I made th
 Fitbit SDK Forum: https://community.fitbit.com/t5/SDK-Development/bd-p/sdk
 Fitbit Developer Guide: https://dev.fitbit.com/build/guides/
 
-I would like to thank the community for posting their questions so I could learn from them.
+I would like to thank the community for posting their questions so I could learn from them.  There are parts of the code for this app that were taken from the Fitbit developer guide and forum then modified for use in my app, I do not claim ownership of that code, which is why I wanted to link to my primary resources up front.
 
 # How It Works
 This app uses the clock API to decrease the timer by 1 each second.  The timer variable is converted to hours, minutes and seconds and displayed.  The background color starts green and moves to peach at less than 50% time remaining, then to red at less than 25% remaining.  When the timer reaches 0 the string "Finished!" displays and the watch vibrates.  Pushing either the reset button or the start/stop button will reset the timer.
