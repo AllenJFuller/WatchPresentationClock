@@ -27,6 +27,10 @@ The app does not run if the screen turns off, so the app keeps the watch on as l
 Full disclosure I am not sure if/when I will get to implementing these changes.  That said, when I have time I hope to make these improvements.
 1. Add tumblers to set the over all time and the yellow and red times (to replace the current settings screen).
 2. Reformat to work with Ionic (the settings screen does not fit currently).
+3. Make a real app icon.
+
+# App Icon
+If it is not obvious I made the app icon in GIMP.  The icons is located in the resources folder called "icon.png" and is included in the license for the app but I recommend not using it.
 
 # Button Icons
 Button icons are from the Fitbit github repository located here: https://github.com/Fitbit/sdk-design-assets
