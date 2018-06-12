@@ -1,6 +1,6 @@
 # WatchPresentationClock
 
-Current Version: 0.1
+Current Version: 0.1 (BETA)
 
 I wanted to play with the new-ish Fitbit SDK after getting a Versa, so I made this presentation timer.  This was coded in Fitbit Studio (https://studio.fitbit.com/) with help from the following sources.
 
