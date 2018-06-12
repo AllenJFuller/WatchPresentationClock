@@ -1,0 +1,60 @@
+<svg class="background">
+  <rect class="full-size" fill="fb-yellow" id="backgroundRect"/>
+  <text id="myLabel" />
+  <!-- TOP LEFT -->
+  <use id="btn-tl" href="#combo-button-upper-left" fill="fb-black">
+    <set href="combo-button-icon" attributeName="href" to="cog.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="cog_press.png"/>
+  </use>
+  <!-- TOP RIGHT -->
+  <use id="btn-tr" href="#combo-button-upper-right" value="1" fill="fb-black">
+    <set href="combo-button-icon" attributeName="href" to="reset.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  <!-- BOTTOM RIGHT -->
+  <use id="btn-br" href="#combo-button-lower-right" fill="fb-black">
+    <set href="combo-button-icon" attributeName="href" to="timer.png"/>
+    <set href="combo-button-stroke" attributeName="display" to="inline"/>
+  </use>
+  <!-- Pop-up Menu -->
+  <svg id="my-popup" display="none">
+    <!-- Black background -->
+    <rect class="full-size" fill="fb-black" />
+    <!-- Title and text -->
+    <use href="#mixed-text-center-top" class="dialog-mixed-text" fill="fb-white">
+      <set href="#top-padding" attributeName="display" to="none" />
+      <set href="#copy/text" attributeName="text-buffer" to="How long of a timer do you want?" />
+      <set href="#bottom-padding" attributeName="display" to="none" />
+    </use>
+    <!-- Top Left button -->
+    <use id="btnLeft" class="dialog-half-button-left" y="80" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="10 Min" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use>
+    <!-- Top Right button -->
+    <use id="btnRight" class="dialog-half-button-right" y="80" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="15 Min" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use> 
+    <!-- Middle Left button -->
+    <use id="btnLeft2" class="dialog-half-button-left" y="150" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="30 Min" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use>
+    <!-- Middle Right button -->
+    <use id="btnRight2" class="dialog-half-button-right" y="150" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="60 Min" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use>
+    <!-- Bottom Left button -->
+    <use id="btnLeft3" class="dialog-half-button-left" y="220" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="1.5 Hrs" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use>
+    <!-- Bottom Right button -->
+    <use id="btnRight3" class="dialog-half-button-right" y="220" href="#square-button-neutral">
+      <set href="#text" attributeName="text-buffer" to="2 Hrs" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+    </use>
+  </svg>
+</svg>
