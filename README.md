@@ -2,6 +2,7 @@
 I wanted to play with the new-ish Fitbit SDK after getting a Versa, so I made this presentation timer.  This was coded in Fitbit Studio (https://studio.fitbit.com/) with help from the following sources.
 
 Fitbit SDK Forum: https://community.fitbit.com/t5/SDK-Development/bd-p/sdk
+
 Fitbit Developer Guide: https://dev.fitbit.com/build/guides/
 
 I would like to thank the community for posting their questions, so I could learn from them.  There are parts of the code for this app that were taken from the Fitbit developer guide and forum then modified for use in my app, I do not claim ownership of that code, which is why I wanted to link to my primary resources up front.
