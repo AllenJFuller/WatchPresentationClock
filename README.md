@@ -21,6 +21,8 @@ The upper left button lets the user set the timers to one of six values:
 - 1.5 hrs
 - 2 hrs
 
+The app does not run if the screen turns off, so the app keeps the watch on as long as it is running.
+
 # To-do:
 Full disclosure I am not sure if/when I will get to implementing these changes.  That said, when I have time I hope to make these improvements.
 1. Add tumblers to set the over all time and the yellow and red times (to replace the current settings screen).
