@@ -4,9 +4,8 @@ import * as util from "../common/utils";
 import { vibration } from "haptics";
 import { display } from "display";
 
-//Keep Screen On and set to 25%
+//Keep Screen On
 display.autoOff = false;
-display.brightnessOverride = .25;
 
 // Update the clock every second
 clock.granularity = "seconds";
